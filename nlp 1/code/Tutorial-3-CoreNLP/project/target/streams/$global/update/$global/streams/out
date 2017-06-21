@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Users/pru/Desktop/CS5560%20-%20T2%20(Introduction%20to%20CoreNLP)%20SourceCode/Tutorial-3-CoreNLP/project/}tutorial-3-corenlp-build...
+[info] Updating {file:/C:/Users/pru/Documents/GitHub/knowledge-discovery-and-management-2017-/nlp%201/code/Tutorial-3-CoreNLP/project/}tutorial-3-corenlp-build...
 [debug] :: resolving dependencies :: default#tutorial-3-corenlp-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies for default#tutorial-3-corenlp-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#tutorial-3-corenlp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40131e7c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d357ba1
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -1766,19 +1766,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 2998ms :: artifacts dl 116ms
-[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT compile produced in C:\Users\pru\Desktop\CS5560 - T2 (Introduction to CoreNLP) SourceCode\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-compile.xml
-[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT runtime produced in C:\Users\pru\Desktop\CS5560 - T2 (Introduction to CoreNLP) SourceCode\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-runtime.xml
-[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT test produced in C:\Users\pru\Desktop\CS5560 - T2 (Introduction to CoreNLP) SourceCode\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-test.xml
-[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT provided produced in C:\Users\pru\Desktop\CS5560 - T2 (Introduction to CoreNLP) SourceCode\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-provided.xml
-[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT optional produced in C:\Users\pru\Desktop\CS5560 - T2 (Introduction to CoreNLP) SourceCode\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-optional.xml
-[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT compile-internal produced in C:\Users\pru\Desktop\CS5560 - T2 (Introduction to CoreNLP) SourceCode\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-compile-internal.xml
-[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\pru\Desktop\CS5560 - T2 (Introduction to CoreNLP) SourceCode\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-runtime-internal.xml
-[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT test-internal produced in C:\Users\pru\Desktop\CS5560 - T2 (Introduction to CoreNLP) SourceCode\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-test-internal.xml
-[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT plugin produced in C:\Users\pru\Desktop\CS5560 - T2 (Introduction to CoreNLP) SourceCode\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-plugin.xml
-[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT sources produced in C:\Users\pru\Desktop\CS5560 - T2 (Introduction to CoreNLP) SourceCode\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-sources.xml
-[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT docs produced in C:\Users\pru\Desktop\CS5560 - T2 (Introduction to CoreNLP) SourceCode\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-docs.xml
-[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT pom produced in C:\Users\pru\Desktop\CS5560 - T2 (Introduction to CoreNLP) SourceCode\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-pom.xml
-[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT scala-tool produced in C:\Users\pru\Desktop\CS5560 - T2 (Introduction to CoreNLP) SourceCode\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-scala-tool.xml
-[debug] 	resolve done (2998ms resolve - 116ms download)
+[debug] :: resolution report :: resolve 5069ms :: artifacts dl 251ms
+[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT compile produced in C:\Users\pru\Documents\GitHub\knowledge-discovery-and-management-2017-\nlp 1\code\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-compile.xml
+[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT runtime produced in C:\Users\pru\Documents\GitHub\knowledge-discovery-and-management-2017-\nlp 1\code\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-runtime.xml
+[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT test produced in C:\Users\pru\Documents\GitHub\knowledge-discovery-and-management-2017-\nlp 1\code\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-test.xml
+[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT provided produced in C:\Users\pru\Documents\GitHub\knowledge-discovery-and-management-2017-\nlp 1\code\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-provided.xml
+[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT optional produced in C:\Users\pru\Documents\GitHub\knowledge-discovery-and-management-2017-\nlp 1\code\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-optional.xml
+[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT compile-internal produced in C:\Users\pru\Documents\GitHub\knowledge-discovery-and-management-2017-\nlp 1\code\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-compile-internal.xml
+[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\pru\Documents\GitHub\knowledge-discovery-and-management-2017-\nlp 1\code\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-runtime-internal.xml
+[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT test-internal produced in C:\Users\pru\Documents\GitHub\knowledge-discovery-and-management-2017-\nlp 1\code\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-test-internal.xml
+[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT plugin produced in C:\Users\pru\Documents\GitHub\knowledge-discovery-and-management-2017-\nlp 1\code\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-plugin.xml
+[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT sources produced in C:\Users\pru\Documents\GitHub\knowledge-discovery-and-management-2017-\nlp 1\code\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-sources.xml
+[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT docs produced in C:\Users\pru\Documents\GitHub\knowledge-discovery-and-management-2017-\nlp 1\code\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-docs.xml
+[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT pom produced in C:\Users\pru\Documents\GitHub\knowledge-discovery-and-management-2017-\nlp 1\code\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-pom.xml
+[debug] 	report for default#tutorial-3-corenlp-build;0.1-SNAPSHOT scala-tool produced in C:\Users\pru\Documents\GitHub\knowledge-discovery-and-management-2017-\nlp 1\code\Tutorial-3-CoreNLP\project\target\resolution-cache\reports\default-tutorial-3-corenlp-build-scala-tool.xml
+[debug] 	resolve done (5069ms resolve - 251ms download)
 [info] Done updating.

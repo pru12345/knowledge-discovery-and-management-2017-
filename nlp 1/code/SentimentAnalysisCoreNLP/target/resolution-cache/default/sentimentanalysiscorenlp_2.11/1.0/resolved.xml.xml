@@ -4,7 +4,7 @@
 		module="sentimentanalysiscorenlp_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170614061242"
+		publication="20170620120211"
 	>
 		<description>
 		SentimentAnalysisCoreNLP

@@ -4,7 +4,7 @@
 		module="sentimentanalysiscorenlp$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170616093443"
+		publication="20170620120209"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
