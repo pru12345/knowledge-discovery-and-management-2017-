@@ -18,7 +18,7 @@ import java.io.*;
 import org.apache.commons.io.FileUtils;
 
 public class  que_ans{
-    public static void main(String args[]) {
+    public String fun (String text) {
 
         // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
         Properties props = new Properties();
@@ -30,7 +30,7 @@ public class  que_ans{
         String nextLine = null;
 
         try {
-            nextLine = FileUtils.readFileToString(new File("data\\data.txt"));
+            nextLine = FileUtils.readFileToString(new File(text));
 
 
         } catch (Exception e) {
@@ -137,7 +137,7 @@ public class  que_ans{
         }
 
         if (who.size()==noun.size()&&who.size()!=0){
-            System.out.println("the main charecters are "+ list2.get(1)+ ";"+list2.get(2));
+          System.out.println("the main charecters are "+ list2.get(1)+ ";"+list2.get(2));
         }
 
        else  if (where.size()>0){
