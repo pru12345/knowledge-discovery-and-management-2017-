@@ -22,7 +22,7 @@ object W2V {
 
     if (modelFolder.exists()) {
       val sameModel = Word2VecModel.load(sc, "myModelPath")
-      val synonyms = sameModel.findSynonyms("zero", 40)
+      val synonyms = sameModel.findSynonyms("one", 40)
 
       for ((synonym, cosineSimilarity) <- synonyms) {
         println(s"$synonym $cosineSimilarity")
@@ -33,7 +33,7 @@ object W2V {
 
       val model = word2vec.fit(input)
 
-      val synonyms = model.findSynonyms("zero", 40)
+      val synonyms = model.findSynonyms("one", 40)
 
       for ((synonym, cosineSimilarity) <- synonyms) {
         println(s"$synonym $cosineSimilarity")

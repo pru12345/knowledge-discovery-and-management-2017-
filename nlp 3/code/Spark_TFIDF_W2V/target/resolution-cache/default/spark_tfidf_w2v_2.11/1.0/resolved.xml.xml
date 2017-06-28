@@ -4,7 +4,7 @@
 		module="spark_tfidf_w2v_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170625155412"
+		publication="20170627110341"
 	>
 		<description>
 		Spark_TFIDF_W2V

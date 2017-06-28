@@ -1,15 +1,12 @@
 import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.mllib.feature.{HashingTF, IDF}
+import org.apache.spark.mllib.feature.{HashingTF, IDF, Word2Vec, Word2VecModel}
 
 import scala.collection.immutable.HashMap
-
-/**
-  * Created by Mayanka on 19-06-2017.
-  */
+import java.io._
 object TF_IDF {
   def main(args: Array[String]): Unit = {
 
-    System.setProperty("hadoop.home.dir", "D:\\Mayanka Lenevo F Drive\\winutils")
+    //System.setProperty("hadoop.home.dir", "D:\\Mayanka Lenevo F Drive\\winutils")
 
     val sparkConf = new SparkConf().setAppName("SparkWordCount").setMaster("local[*]")
 
@@ -20,7 +17,7 @@ object TF_IDF {
 
     //Getting the Lemmatised form of the words in TextFile
     val documentseq = documents.map(f => {
-      val lemmatised = CoreNLP.returnLemma(f)
+      //val lemmatised = CoreNLP.returnLemma(f)
       val splitString = f.split(" ")
       splitString.toSeq
     })
@@ -67,13 +64,41 @@ object TF_IDF {
       val i = hashingTF.indexOf(f)
       val h = mapp.value
       (f, h(i.toString))
-     })
-
-    val dd1 = dd.distinct().sortBy(_._2, false)
-    dd1.take(20).foreach(f => {
-      println(f)
     })
 
-  }
+    val dd1 = dd.distinct().sortBy(_._2, false)
+    val writer = new PrintWriter(new File("out.txt"))
 
+    dd1.take(30) foreach (f => {
+      println(f._1)
+      writer.write(f._1 + "\n")
+
+    })
+
+    writer.close()
+
+     val d=dd1.collect().take(30)
+    val modelFolder = new File("myModelPath")
+
+    val doc = sc.textFile("data/sample").map(line => line.split(" ").toSeq)
+
+    val word2vec = new Word2Vec().setVectorSize(1000)
+    val model = word2vec.fit(doc)
+    for (line <- scala.io.Source.fromFile("out.txt").getLines()) {
+
+      val synonyms = model.findSynonyms(line, 2)
+     System.out.println("Finding Synonym for-->"+line)
+      for ((synonym, cosineSimilarity) <- synonyms) {
+        println(s"$synonym $cosineSimilarity")
+      }
+    }
+    System.out.println("Enter the Question!!!")
+    val ans=scala.io.StdIn.readLine()
+    System.out.println("The entered question is:" +ans)
+    if(ans.contains("what"))
+      {
+        System.out.println("The trending words in our dataset are"+dd1.take(5))
+      }
+
+  }
 }
